@@ -9,5 +9,5 @@ torch.save(model.state_dict(), 'model_weights.pth')
 
 
 def get_model():
-  print("hi")
+  print("model")
   return model
