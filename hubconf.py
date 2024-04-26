@@ -15,6 +15,6 @@ def get_model():
   return model
 
 def get_data_blobs(n_points=100):
-  X,y=make_blobs(n_samples=10,centers=2,n_features=2)
+  X,y=make_blobs(n_samples=10,centers=2,n_features=3)
   print(X.shape)
   return X,y
